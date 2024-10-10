@@ -1,75 +1,30 @@
-# Vite + React + Typescript + Tanstack Query + Tailwind + Eslint + Prettier
+#  Budget Tracker
 
-This is a starter template to get you going with the must-have libraries for every project.
+Welcome to the  Budget Tracker, a robust and visually unique tool designed to help you manage your finances with precision and style. Utilizing a minimalist and rugged design, this budget tracker offers a clear and straightforward approach to managing transactions, bills, and savings goals.
 
-The starter includes the following libraries:
-- `@tanstack/react-query`
-- `axios`
-- `tailwind`
-- `classnames`
-- `tailwind-merge`
-- `eslint` and the libraries for the airbnb config
-- `prettier`
+## Features
 
-Also, relative paths are setup in the `tsconfig.json` file so that you can easily import anything you need relatively.
+- **Transaction Management**: Track your income and expenses with ease. Add, view, and delete transactions to keep your finances up-to-date.
+- **Bill Management**: Never miss a payment again with our bill reminders system. Add and manage upcoming bills and view them in an easy-to-navigate interface.
+- **Savings Goals Tracker**: Set and track your savings goals, watching your progress in a visually engaging way.
+- **Budget Comparison**: Visualize how your actual spending compares against your budgeted amounts.
+- **Responsive Visuals**: Enjoy responsive pie and bar charts that provide a comprehensive view of your financial health.
+- **Intuitive User Interface**: Experience the unique Neobrutalist design aesthetic, which combines functionality with a strong visual identity.
 
-## How to use this starter
 
----
-Clone the repository:
-```
-https://github.com/Tenacity-Dev/vite-react-ts-tailwind-tanstack-query-eslint-prettier.git
-```
+## Contributing
 
-cd into the repository:
-```
-cd vite-react-ts-tailwind-tanstack-query-eslint-prettier
-```
+Contributions are welcome! Whether you're fixing bugs, adding new features, or improving documentation, please feel free to fork the repository and submit a pull request.
 
-To make this repository yours:
-```
-rm -rf .git && git init && npm init
-git add .
-git commit -m "Initial commit"
-```
+## License
 
-Install dependencies:
-```
-npm install
-```
+This project is licensed under the MIT License 
 
-Start the local server:
-```
-npm run web
-```
 
-# React + TypeScript + Vite
+## Acknowledgments
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Inspired by the principles of Neobrutalism in design, focusing on function and digital rawness.
+- Thanks to all the contributors who spend time to help improve this project!
 
-Currently, two official plugins are available:
+Enjoy managing your finances with Neobrutalist Budget Tracker!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
